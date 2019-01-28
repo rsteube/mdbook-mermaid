@@ -4,9 +4,9 @@ version = "0.1.0"
 authors = ["Jan-Erik Rediger <janerik@fnordig.de>"]
 
 [dependencies]
-mdbook = { git = "https://github.com/rust-lang-nursery/mdBook", branch = "custom-preprocessor" }
-pulldown-cmark = "0.1.2"
-pulldown-cmark-to-cmark = "1.1.0"
+mdbook = { git = "https://github.com/rust-lang-nursery/mdBook", tag = "v0.2.3" }
+pulldown-cmark = "0.2.0"
+pulldown-cmark-to-cmark = "1.2.0"
 env_logger = "0.5.10"
 log = "0.4.3"
 clap = "2.32.0"
